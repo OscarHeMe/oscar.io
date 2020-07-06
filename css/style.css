@@ -68,33 +68,31 @@ html {
   z-index: 100;
 }
 
-.skill-image {
-  min-height: 150px; 
-  min-width: 150px; 
-  background-repeat: no-repeat; 
-  background-position: center;
-  background-size: contain;
+.skill-row {
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
-.card-title {
-  padding: 15px;
+.skill-image {
+  max-height: 150px; 
+  max-width: 200px;
+  margin: 15px;
 }
 
 .card-bg {
   background-color: #BFB48F50!important;
 }
 
-.card-title {
-  color: #EDDFB1;
-}
-
 .bg-wood {
-  background-image: url(../files/images/woods.jpg)
+  background-image: url(../files/images/woods.jpg);
+  z-index: -1;
 }
 
 .text-about {
   background-color: #12100E;
-  color: #EDDFB1;
+  color: rgb(255, 255, 255);
 }
 
 
