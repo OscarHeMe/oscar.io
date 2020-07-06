@@ -1,0 +1,143 @@
+html {
+  font-size: 1rem;
+}
+
+.container-fluid {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+#name-header {
+  text-align: center;
+  /* -webkit-text-stroke: 1px rgb(161, 158, 158); */
+  color: white;
+  display: block;
+  padding-top: 0rem;
+}
+
+#name-description {
+  text-align: center;
+  color: white;
+  display: block;
+  padding-top: 0rem;
+}
+
+.navbar {
+  opacity: 0.95;
+  transition: top 0.3s;
+  background-color: #17202a;
+}
+
+.bg {
+  /* The image used */
+  background: url(../files/images/my_face.jpg) fixed no-repeat center;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* background-size: auto 100vh; */
+
+  opacity: 0.9;
+}
+
+#first-animated {
+  display: inline;
+  position: absolute;
+  right: 0px;
+  animation-name: firstAnimation;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+#second-animated {
+  display: inline;
+  position: absolute;
+  right: 0px;
+  animation-name: firstAnimation;
+  animation-duration: 6s;
+  animation-delay: -3s;
+  animation-iteration-count: infinite;
+}
+
+.h3 {
+  z-index: 100;
+}
+
+.skill-image {
+  min-height: 150px; 
+  min-width: 150px; 
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: contain;
+}
+
+.card-title {
+  padding: 15px;
+}
+
+.card-bg {
+  background-color: #BFB48F50!important;
+}
+
+.card-title {
+  color: #EDDFB1;
+}
+
+.bg-wood {
+  background-image: url(../files/images/woods.jpg)
+}
+
+.text-about {
+  background-color: #12100E;
+  color: #EDDFB1;
+}
+
+
+@keyframes firstAnimation {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#btn-contact {
+  border: none;
+  color: #EDDFB1;
+}
+#btn-contact a {
+  color: #EDDFB1;
+}
+
+@media screen and (max-width: 1000px) {
+  #name-header {
+    font-size: 2em;
+  }
+  #name-description {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #name-header {
+    font-size: 1.75em;
+  }
+  #name-description {
+    font-size: 1.2em;
+  }
+}
