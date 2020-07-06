@@ -69,10 +69,11 @@ html {
 }
 
 .skill-row {
-  height: 150px;
+  height: 160px;
   justify-content: center;
   align-items: center;
   display: flex;
+  padding-bottom: 15px;
 }
 
 .skill-image {
