@@ -78,8 +78,9 @@ html {
 
 .skill-image {
   max-height: 150px; 
-  max-width: 200px;
-  margin: 15px;
+  max-width: 170px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .card-bg {
@@ -117,10 +118,10 @@ html {
 
 #btn-contact {
   border: none;
-  color: #EDDFB1;
+  color: white;
 }
 #btn-contact a {
-  color: #EDDFB1;
+  color: white;
 }
 
 @media screen and (max-width: 1000px) {
